@@ -1,0 +1,52 @@
+/* @author Hung Nguyen */
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+body {
+  background-color:white;
+  color:black;
+  text-align: center;
+}
+
+h4 {color:rgb(29, 35, 100);
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(223, 223, 61);
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  text-align:left;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.img-fluid {
+  max-width: 100%; 
+  height: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
