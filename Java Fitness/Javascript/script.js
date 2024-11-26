@@ -1,5 +1,6 @@
 /*
-Group project
+Javascript for Services and FAQ pages
+@author Hung Nguyen
 */
 
 const toastTrigger = document.getElementById('liveToastBtn')
