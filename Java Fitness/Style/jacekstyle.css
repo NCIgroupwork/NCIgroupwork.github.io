@@ -1,0 +1,145 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-dark, .info a {
+    color: yellow;
+    text-decoration-color: yellow;
+}
+.navbar .navbar-brand {
+    margin-right: 0.5rem;
+    white-space:normal; 
+    text-align:center;
+    line-height: 1.0;
+    word-wrap: break-word;
+}
+.navbar .container {
+    padding-left: 1rem;
+}
+.carousel-inner img {
+    height: 580px;
+    object-fit: cover;
+    width:100%;
+}
+#carouselExampleCaptions {
+    max-height: 580px;
+    overflow:hidden;
+}
+.top {
+    color: yellow;
+}
+.btn {
+    background-color: black;
+}
+.carousel-caption{
+    position: absolute;
+    color:yellow;
+    text-align:center;
+    z-index: inherit;
+}
+#benefits{
+    font-weight:bolder;
+}
+.card {
+    background-color: rgb(231, 231, 16);
+    margin: 10px 0;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title, .card-text {
+    text-align: center;
+ }
+.card-text{
+    flex-grow: 1;
+}
+.card-img-top{
+    height:180px;
+    object-fit: cover;
+    width:100%;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+}
+.row {
+    justify-content: center;
+}
+.col{
+    display:flex;
+    justify-content: center;
+}
+.footer-container, .footer, .bg-dark {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .footer-left {
+    text-align: left;
+    padding: 1rem;
+    background-color: #cdd6df6e; 
+    font-size: 0.9rem;
+  }
+  .footer-left p {
+    margin: 0;
+  }
+input::placeholder{
+    text-align: center;
+    line-height: normal;
+}
+.input {
+    text-align: center;
+    height: auto;
+    display:flex;
+    align-items:center;
+}
+.bg-dark .small {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.subMessage {
+    font-size:1,5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+@media (max-width:570px) {
+    .carousel-inner img{
+        height: 250px;
+    }
+    .navbar .navbar-brand {
+        font-size:0.7rem;
+    }
+    .carousel-caption {
+        display: block !important;
+        font-size: 0.6rem;
+        line-height: 1.1;
+        word-wrap: break-word;
+        overflow: visible;
+        text-align: center;
+    }
+    .carousel-caption h1, .carousel-caption p {
+        font-size: 0.6rem;
+        line-height: 1.1;       
+    }
+    .h3 {
+        font-size: smaller;
+        text-align: center;
+    }
+    .container2{
+        padding:0;
+        text-align:center;
+        font-size: smaller;
+    }
+    .row {
+    flex-wrap:wrap;
+    }
+    .col {
+    flex-basis: 100%;
+    }
+}
