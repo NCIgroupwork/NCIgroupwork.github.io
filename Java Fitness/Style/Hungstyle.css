@@ -55,3 +55,9 @@ ul {
   align-items: center;
 }
 
+@media (max-width: 500px){
+	#banner{
+		width: 549px; 
+    height: 250px;
+	}
+}
