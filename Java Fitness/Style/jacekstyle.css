@@ -54,6 +54,13 @@ body {
     display:flex;
     justify-content: center;
 }
+.card-title, .card-text {
+    text-align: center;
+ }
+.card-text{
+    flex-grow: 1;
+    text-align:center;
+}
 .row {
     justify-content: center;
 }
