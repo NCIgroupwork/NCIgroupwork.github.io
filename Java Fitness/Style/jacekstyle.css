@@ -50,6 +50,17 @@ body {
     justify-content: space-between;
     text-align:center;
 }
+.container2{
+    display:flex;
+    justify-content: center;
+}
+.row {
+    justify-content: center;
+}
+.col{
+    display:flex;
+    justify-content: center;
+}
 .card-img-top{
     height:180px;
     object-fit: cover;
