@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .bg-dark, .info a {
     color: yellow;
@@ -16,11 +16,26 @@ body {
 .navbar .nav-link {
     color: #000;
 }
+.carousel-inner img {
+    height: 580px;
+    object-fit: cover;
+    width:100%;
+}
+#carouselExampleCaptions {
+    max-height: 580px;
+    overflow:hidden;
+}
 .top {
     color: yellow;
 }
 .btn {
     background-color: black;
+}
+.carousel-caption{
+    position: absolute;
+    color:yellow;
+    text-align:center;
+    z-index: 1;
 }
 #benefits{
     font-weight:bold;
@@ -38,17 +53,12 @@ body {
 .container2{
     display:flex;
     justify-content: center;
-<<<<<<< HEAD
-    font-family: ;
-=======
->>>>>>> parent of 2c08bf6 (Update kevinstyle.css)
 }
 .card-title, .card-text {
     text-align: center;
  }
 .card-text{
     flex-grow: 1;
-    font-family: 'Times New Roman', Times, serif;
     text-align:center;
 }
 .row {
@@ -84,7 +94,7 @@ input::placeholder{
     line-height: normal;
 }
 .bg-dark .small {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -95,8 +105,19 @@ input::placeholder{
     text-align: center;
 }
 @media (max-width:570px) {
+    .carousel-inner img{
+        height: 250px;
+    }
     .navbar .navbar-brand {
         font-size:0.7rem;
+    }
+    .carousel-caption {
+        font-size: 0.6rem;
+        line-height: 1.1;
+    }
+    .carousel-caption h1, .carousel-caption p {
+        font-size: 0.6rem;
+        line-height: 1.1;       
     }
     .h3 {
         font-size: smaller;
