@@ -2,8 +2,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 .bg-dark, .info a {
-    color: yellow;
-    text-decoration-color: yellow;
+    color: blue;
+    text-decoration-color: blue;
     font-size: 0.8rem;
 }
 .navbar .navbar-brand {
@@ -38,7 +38,7 @@ body {
 .container{
     display:flex;
     justify-content: center;
-    font-family: ;
+    font-family: 'Times New Roman', Times, serif;
 }
 .card-title, .card-text {
     text-align: center;
