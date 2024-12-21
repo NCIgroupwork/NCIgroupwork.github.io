@@ -3,7 +3,7 @@ body {
 }
 .bg-dark, .info a {
     color: yellow;
-    text-decoration-color: blue;
+    text-decoration-color: yellow;
     font-size: 0.8rem;
 }
 .navbar .navbar-brand {
