@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 .bg-dark, .info a {
-    color: blue;
+    color: yellow;
     text-decoration-color: blue;
     font-size: 0.8rem;
 }
