@@ -16,26 +16,11 @@ body {
 .navbar .nav-link {
     color: #000;
 }
-.carousel-inner img {
-    height: 580px;
-    object-fit: cover;
-    width:100%;
-}
-#carouselExampleCaptions {
-    max-height: 580px;
-    overflow:hidden;
-}
 .top {
     color: yellow;
 }
 .btn {
     background-color: black;
-}
-.carousel-caption{
-    position: absolute;
-    color:yellow;
-    text-align:center;
-    z-index: 1;
 }
 #benefits{
     font-weight:bold;
@@ -59,6 +44,7 @@ body {
  }
 .card-text{
     flex-grow: 1;
+    font-family: 'Times New Roman', Times, serif;
     text-align:center;
 }
 .row {
