@@ -35,13 +35,10 @@ body {
     justify-content: space-between;
     text-align:center;
 }
-.container2{
+.container{
     display:flex;
     justify-content: center;
-<<<<<<< HEAD
     font-family: ;
-=======
->>>>>>> parent of 2c08bf6 (Update kevinstyle.css)
 }
 .card-title, .card-text {
     text-align: center;
